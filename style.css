@@ -1,7 +1,7 @@
 
 
 body {
-    font-family: Helvetica;
+    font-family: poppins;
     font-size: 22px;
     color: seashell;
     background-color: black;
@@ -181,6 +181,16 @@ padding-right: 5%;
    width: 100%;
 
 }
+    
+    #fall-berry-blitz-tea,
+#spiced-rum-tea,
+#seasonal-donuts,
+#myrtle-ave-tea,
+#bedford-bizarre-tea {
+    width: 100%
+}
+}
+
 }
 
 
