@@ -1,0 +1,223 @@
+
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    text-align: center;
+    max-width: 100%;
+    
+}
+#logo {
+    position: absolute;
+    height: 50px;
+    left: 10px;
+}
+
+nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+
+.navbar {
+    width: 30%;
+    float: right;
+    display: flex;
+    position: absolute;
+    right: 15px;
+    list-style-type: none;
+    text-decoration: underline;
+    opacity: .9;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 69px;
+    top: 0px;
+    font-size: 15px;
+}
+
+
+
+#background {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    opacity: .9;
+}
+#image {
+    width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+}
+
+#bar {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    max-height: 100%;
+    background-color: black;
+    flex-wrap: wrap;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+#some {
+    color: seashell;
+    opacity: .9;
+    text-align: center;
+}
+
+#it {
+    position: relative;
+    top: -10%;
+    color: seashell;
+    opacity: .9;
+}
+
+.images {
+   display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+#fall-berry-blitz-tea, #spiced-rum-tea, #seasonal-donuts, #myrtle-ave-tea, #bedford-bizarre-tea {
+    aspect-ratio: 1.5;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
+#side, #side-2, #side-3, #side-4, #side-5 {
+    color: black;
+   font-size: 20px;
+    height: 100%;
+    font-family: poppins;
+    display: flex;
+        width: 50%;
+        float: right;
+    padding: 7%;
+    flex-wrap: wrap;
+        background-color: white;
+        border: 3px solid green;
+        flex-shrink: 0;
+}
+
+
+#fall-berry-blitz-tea, #spiced-rum-tea, #seasonal-donuts, #myrtle-ave-tea, #bedford-bizarre-tea {
+    background: black;
+    height: 100%;
+    width: 50%;
+    position: relative;
+    bottom: 8px;
+    flex-shrink: 0;
+}
+
+.together, .together-2, .together-3, .together-4, .together-5 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-shrink: 0;
+   flex-wrap: wrap;
+   width: 75vw;
+}
+
+
+@media screen and (max-width: 576px) {
+
+.navbar {
+    font-size: 10px;
+}
+
+.images {
+    width: 75%;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#background {
+    padding-left: 0px;
+    width: 100vw;
+}
+
+
+#side,
+#side-2,
+#side-3,
+#side-4,
+#side-5 {
+    font-size: 10px;
+}
+
+.together,
+.together-2,
+.together-3,
+.together-4,
+.together-5 {
+    flex-direction: column;
+}
+
+#it {
+    font-size: 10px;
+    flex-wrap: wrap;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+#some {
+    font-size: 25px
+}
+
+#bar {
+   width: 100%;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
