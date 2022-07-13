@@ -26,13 +26,11 @@ nav {
 
 
 .navbar {
-    width: 30%;
-    float: right;
+    width: 20%;
     display: flex;
     position: absolute;
     right: 15px;
     list-style-type: none;
-    text-decoration: underline;
     opacity: .9;
     flex-wrap: wrap;
     align-items: center;
